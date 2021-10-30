@@ -99,3 +99,12 @@ i {
 .todos__clear:hover {
   color: #6C63FF;
 }
+
+.todos__list-item {
+  transition: all 0.3s ease-out;
+}
+
+.todos__list-item--fade {
+  transform: translateY(12rem) rotateZ(10deg);
+  opacity: 0;
+}
